@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches e envs virtuais
+env/
+venv/
+ENV/
+.venv/
+.pip/
+.egg-info/
+
+# Distribuições
+build/
+dist/
+*.egg
+*.whl
+
+# Arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+
+# Configurações do Editor e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de banco de dados locais (SQLite)
+#db.sqlite3
+
+# Configurações e variáveis de ambiente
+*.env
+.env.*
+.envrc
+
+# Arquivos e diretórios gerados pelo Django
+/media/
+staticfiles/
+*.local_settings.py
+
+# Arquivos de migração do Django
+**/migrations/*.pyc
+**/migrations/*.py
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de testes
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+.nox/
