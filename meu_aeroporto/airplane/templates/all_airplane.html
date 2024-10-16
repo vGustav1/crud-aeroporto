@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Meu Aeroporto - Lista de todos os aviões
+{% endblock %}
+
+{% block content %}
+
+  <h1>Aviões</h1>
+  
+  <ul>
+    {% for airplane in myairplane %}
+      <li><a href="/airplane/details/{{ airplane.id }}">{{ airplane.matricula }}</a></li> <!-- Corrigido o link -->
+    {% endfor %}
+  </ul>
+  
+{% endblock %}
+

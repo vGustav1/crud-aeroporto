@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Detalhes sobre o avião {{ myairplane.matricula }}
+{% endblock %}
+
+{% block content %}
+  <h1>Detalhes do Avião: {{ myairplane.matricula }}</h1>
+  
+  <p>Número do Voo: {{ myairplane.numero_Voo }}</p>
+  <p>Modelo: {{ myairplane.modelo }}</p>
+  <p>Procedência: {{ myairplane.procedencia }}</p>
+  <p>Destino: {{ myairplane.destino }}</p>
+  <p>Número de Passageiros: {{ myairplane.numero_passageiros }}</p>
+  
+  <p>Voltar para a <a href="/airplane">Lista de Aviões</a></p>
+  
+{% endblock %}
